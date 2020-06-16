@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ee794003d9128dcc904fe90cf91fa2b0"
+build_time: [1592341145, 607662000]
+inputs:
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/AppDelegate.swift": [1592341135, 451887777]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/SceneDelegate.swift": [1592341135, 461801722]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/MasterViewController.swift": [1592341135, 466939393]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/DetailViewController.swift": [1592341135, 471758614]
