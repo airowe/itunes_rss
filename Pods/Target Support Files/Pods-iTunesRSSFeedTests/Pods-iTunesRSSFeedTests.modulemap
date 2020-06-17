@@ -1,0 +1,6 @@
+framework module Pods_iTunesRSSFeedTests {
+  umbrella header "Pods-iTunesRSSFeedTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
