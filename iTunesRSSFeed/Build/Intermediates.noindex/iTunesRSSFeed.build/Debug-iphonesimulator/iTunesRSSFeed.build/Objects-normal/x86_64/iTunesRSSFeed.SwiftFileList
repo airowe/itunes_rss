@@ -1,4 +1,10 @@
 /Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/AppDelegate.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Feed.swift
 /Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/SceneDelegate.swift
-/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/MasterViewController.swift
-/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/DetailViewController.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Views/MainViewController.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/ViewModels/AlbumViewModel.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Views/DetailViewController.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Album.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Genre.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Networking/APIClient.swift
+/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Networking/iTunesRSSAPI.swift
