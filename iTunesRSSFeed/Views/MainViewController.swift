@@ -17,6 +17,9 @@ class MainViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "iTunes"
+
+        tableView.showActivityIndicator()
         tableView.rowHeight = 125
         tableView.estimatedRowHeight = UITableView.automaticDimension
         tableView.register(AlbumTableViewCell.self,
@@ -29,6 +32,7 @@ class MainViewController: UITableViewController {
         viewModel.$albums.sink { [weak self] albums in
             self?.albums = albums
             self?.tableView.reloadData()
+            self?.tableView.showActivityIndicator()
         }.store(in: &cancellables)
     }
 

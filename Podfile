@@ -13,8 +13,4 @@ target 'iTunesRSSFeed' do
     # Pods for testing
   end
 
-  target 'iTunesRSSFeedUITests' do
-    # Pods for testing
-  end
-
 end
