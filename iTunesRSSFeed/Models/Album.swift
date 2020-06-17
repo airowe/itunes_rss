@@ -14,7 +14,8 @@ struct Album: Codable {
     let copyright: String
     let genres: [Genre]
     let name: String
-    let releaseDate: String
+    let release: String
+    let url: String
 
     enum CodingKeys: String, CodingKey {
         case artistName
@@ -22,6 +23,7 @@ struct Album: Codable {
         case copyright
         case genres
         case name
-        case releaseDate
+        case release = "releaseDate"
+        case url
     }
 }

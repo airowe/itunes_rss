@@ -47,14 +47,14 @@ class MainViewController: UITableViewController {
 
         let album = albums[indexPath.row]
         cell.setup(with: AlbumViewModel(album))
-
-        cell.layoutIfNeeded()
         
         return cell
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailViewController = DetailViewController()
+        let album = albums[indexPath.row]
+
+        let detailViewController = DetailViewController(AlbumViewModel(album))
         navigationController?.pushViewController(detailViewController, animated: true)
     }
 }

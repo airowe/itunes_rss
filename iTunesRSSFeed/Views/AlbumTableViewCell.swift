@@ -11,7 +11,7 @@ import UIKit
 
 class AlbumTableViewCell: UITableViewCell {
 
-    private var viewModel: AlbumViewModel? {
+    var viewModel: AlbumViewModel? {
         didSet {
             albumLabel.text = viewModel?.albumName
             artistLabel.text = viewModel?.artist
@@ -32,6 +32,7 @@ class AlbumTableViewCell: UITableViewCell {
         stackView.translatesAutoresizingMaskIntoConstraints = false
 
         stackView.axis = .vertical
+        stackView.distribution = .fillEqually
 
         return stackView
     }()
@@ -39,6 +40,8 @@ class AlbumTableViewCell: UITableViewCell {
     lazy var albumLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
+
         labelsStackView.addArrangedSubview(label)
 
         return label
@@ -47,6 +50,8 @@ class AlbumTableViewCell: UITableViewCell {
     lazy var artistLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
+
         labelsStackView.addArrangedSubview(label)
 
         return label
@@ -81,7 +86,8 @@ class AlbumTableViewCell: UITableViewCell {
         mainStackView.addArrangedSubview(artworkImage)
 
         NSLayoutConstraint.activate([
-            labelsStackView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.75)])
+            labelsStackView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.75),
+            labelsStackView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)])
     }
 
     func setup(with viewModel: AlbumViewModel) {

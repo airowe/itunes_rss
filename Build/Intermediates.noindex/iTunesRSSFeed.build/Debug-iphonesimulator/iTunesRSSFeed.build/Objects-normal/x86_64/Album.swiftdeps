@@ -34,7 +34,8 @@ depends-member:
 - ["13iTunesRSSFeed5AlbumV", "genres"]
 - ["13iTunesRSSFeed5AlbumV", "init"]
 - ["13iTunesRSSFeed5AlbumV", "name"]
-- ["13iTunesRSSFeed5AlbumV", "releaseDate"]
+- ["13iTunesRSSFeed5AlbumV", "release"]
+- ["13iTunesRSSFeed5AlbumV", "url"]
 - ["s9CodingKeyP", "=="]
 - ["s9CodingKeyP", "RawValue"]
 - ["s9CodingKeyP", ""]
@@ -67,8 +68,9 @@ depends-member:
 - ["13iTunesRSSFeed5AlbumV10CodingKeysO", "intValue"]
 - ["13iTunesRSSFeed5AlbumV10CodingKeysO", "name"]
 - ["13iTunesRSSFeed5AlbumV10CodingKeysO", "rawValue"]
-- ["13iTunesRSSFeed5AlbumV10CodingKeysO", "releaseDate"]
+- ["13iTunesRSSFeed5AlbumV10CodingKeysO", "release"]
 - ["13iTunesRSSFeed5AlbumV10CodingKeysO", "stringValue"]
+- ["13iTunesRSSFeed5AlbumV10CodingKeysO", "url"]
 - ["s28CustomDebugStringConvertibleP", "=="]
 - ["s28CustomDebugStringConvertibleP", "RawValue"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -106,7 +108,8 @@ depends-member:
 - !private ["Se", "genres"]
 - ["Se", "init"]
 - !private ["Se", "name"]
-- !private ["Se", "releaseDate"]
+- !private ["Se", "release"]
+- !private ["Se", "url"]
 - !private ["s7DecoderP", "container"]
 - ["SE", ""]
 - !private ["SE", "_findStringSwitchCase"]
@@ -117,7 +120,8 @@ depends-member:
 - !private ["SE", "genres"]
 - ["SE", "init"]
 - !private ["SE", "name"]
-- !private ["SE", "releaseDate"]
+- !private ["SE", "release"]
+- !private ["SE", "url"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
 - ["SQ", "RawValue"]
@@ -272,4 +276,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a772a17dc61e4e65730bb0223890848d"
+interface-hash: "75172581a99057a125cdadf7ee55cfcd"

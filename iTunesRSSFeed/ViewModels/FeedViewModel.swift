@@ -28,9 +28,6 @@ extension FeedViewModel {
             })
             .sink(receiveCompletion: { _ in },
                 receiveValue: {
-                    for album in $0.feed.albums {
-                        print(album.name)
-                    }
                     self.albums = $0.feed.albums
             })
     }
