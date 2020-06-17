@@ -6,107 +6,56 @@ provides-nominal:
 provides-member:
 - ["13iTunesRSSFeed20DetailViewControllerC", ""]
 provides-dynamic-lookup:
-- "configureView"
-- "detailItem"
 - "viewDidLoad"
 depends-top-level:
 - "DetailViewController"
-- "NSDate"
 - "UIViewController"
 depends-member:
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "configureView"]
-- !private ["s7CVarArgP", "detailItem"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "configureView"]
-- !private ["s28CustomDebugStringConvertibleP", "detailItem"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "configureView"]
-- !private ["s23CustomStringConvertibleP", "detailItem"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- ["13iTunesRSSFeed20DetailViewControllerC", "NSDate"]
-- ["13iTunesRSSFeed20DetailViewControllerC", "configureView"]
 - ["13iTunesRSSFeed20DetailViewControllerC", "deinit"]
-- ["13iTunesRSSFeed20DetailViewControllerC", "detailItem"]
 - ["13iTunesRSSFeed20DetailViewControllerC", "init"]
 - ["13iTunesRSSFeed20DetailViewControllerC", "viewDidLoad"]
 - ["SQ", ""]
-- !private ["SQ", "configureView"]
-- !private ["SQ", "detailItem"]
 - !private ["SQ", "viewDidLoad"]
 - ["SH", ""]
-- !private ["SH", "configureView"]
-- !private ["SH", "detailItem"]
 - !private ["SH", "viewDidLoad"]
 - ["So8NSCodingP", ""]
-- !private ["So8NSCodingP", "configureView"]
-- !private ["So8NSCodingP", "detailItem"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
-- !private ["So26NSExtensionRequestHandlingP", "configureView"]
-- !private ["So26NSExtensionRequestHandlingP", "detailItem"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
-- ["So8NSObjectC", "NSDate"]
-- ["So8NSObjectC", "configureView"]
-- ["So8NSObjectC", "detailItem"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "configureView"]
-- !private ["So8NSObjectP", "detailItem"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
-- !private ["So21UIAppearanceContainerP", "configureView"]
-- !private ["So21UIAppearanceContainerP", "detailItem"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", ""]
-- !private ["So18UIContentContainerP", "configureView"]
-- !private ["So18UIContentContainerP", "detailItem"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", ""]
-- !private ["So18UIFocusEnvironmentP", "configureView"]
-- !private ["So18UIFocusEnvironmentP", "detailItem"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
-- !private ["So30UIPasteConfigurationSupportingP", "configureView"]
-- !private ["So30UIPasteConfigurationSupportingP", "detailItem"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
-- ["So11UIResponderC", "NSDate"]
-- ["So11UIResponderC", "configureView"]
-- ["So11UIResponderC", "detailItem"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
-- !private ["So30UIResponderStandardEditActionsP", "configureView"]
-- !private ["So30UIResponderStandardEditActionsP", "detailItem"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", ""]
-- !private ["So16UIStateRestoringP", "configureView"]
-- !private ["So16UIStateRestoringP", "detailItem"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", ""]
-- !private ["So18UITraitEnvironmentP", "configureView"]
-- !private ["So18UITraitEnvironmentP", "detailItem"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", ""]
-- !private ["So23UIUserActivityRestoringP", "configureView"]
-- !private ["So23UIUserActivityRestoringP", "detailItem"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
-- ["So16UIViewControllerC", "NSDate"]
 - ["So16UIViewControllerC", ""]
-- ["So16UIViewControllerC", "configureView"]
-- ["So16UIViewControllerC", "detailItem"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "configureView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "detailItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configureView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "detailItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 depends-nominal:
 - "s7CVarArgP"
@@ -146,6 +95,66 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/adam/Projects/itunes_rss/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -159,4 +168,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6c869b03a78b060d9bca90dd07164de7"
+interface-hash: "24f4d53ca5ba9a479ffd4d807dde1224"

@@ -11,7 +11,7 @@ import UIKit
 
 class AlbumTableViewCell: UITableViewCell {
 
-    private var viewModel: AlbumCellViewModel? {
+    private var viewModel: AlbumViewModel? {
         didSet {
             albumLabel.text = viewModel?.albumName
             artistLabel.text = viewModel?.artist
@@ -84,7 +84,7 @@ class AlbumTableViewCell: UITableViewCell {
             labelsStackView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: 0.75)])
     }
 
-    func setup(with viewModel: AlbumCellViewModel) {
+    func setup(with viewModel: AlbumViewModel) {
         self.viewModel = viewModel
     }
 }

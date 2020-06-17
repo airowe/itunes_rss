@@ -23,7 +23,7 @@ struct APIClient {
                 let value = try JSONDecoder().decode(T.self, from: result.data)
                 return Response(value: value, response: result.response)
         }
-            .receive(on: DispatchQueue.main)
-            .eraseToAnyPublisher()
+        .receive(on: DispatchQueue.main)
+        .eraseToAnyPublisher()
     }
 }

@@ -9,13 +9,19 @@
 import Foundation
 
 struct Album: Codable {
-    let name: String
     let artistName: String
     let artwork: String
+    let copyright: String
+    let genres: [Genre]
+    let name: String
+    let releaseDate: String
 
     enum CodingKeys: String, CodingKey {
-        case name
         case artistName
         case artwork = "artworkUrl100"
+        case copyright
+        case genres
+        case name
+        case releaseDate
     }
 }

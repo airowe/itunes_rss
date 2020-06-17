@@ -7,7 +7,5 @@
 //
 
 struct Genre: Codable {
-    let genreId: String
     let name: String
-    let url: String
 }

@@ -22,8 +22,8 @@ provides-dynamic-lookup:
 - "setup"
 - "viewModel"
 depends-top-level:
-- "AlbumCellViewModel"
 - "AlbumTableViewCell"
+- "AlbumViewModel"
 - "AssignmentPrecedence"
 - "BooleanLiteralType"
 - "FloatLiteralType"
@@ -38,15 +38,12 @@ depends-top-level:
 - "UITableViewCell"
 - !private "fatalError"
 depends-member:
-- !private ["13iTunesRSSFeed18AlbumCellViewModelV", "albumName"]
-- !private ["13iTunesRSSFeed18AlbumCellViewModelV", "artist"]
-- !private ["13iTunesRSSFeed18AlbumCellViewModelV", "artwork"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "$__lazy_storage_$_albumLabel"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "$__lazy_storage_$_artistLabel"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "$__lazy_storage_$_artworkImage"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "$__lazy_storage_$_labelsStackView"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "$__lazy_storage_$_mainStackView"]
-- ["13iTunesRSSFeed18AlbumTableViewCellC", "AlbumCellViewModel"]
+- ["13iTunesRSSFeed18AlbumTableViewCellC", "AlbumViewModel"]
 - ["13iTunesRSSFeed18AlbumTableViewCellC", "NSCoder"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "NSLayoutConstraint"]
 - ["13iTunesRSSFeed18AlbumTableViewCellC", "String"]
@@ -70,6 +67,9 @@ depends-member:
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "trailingAnchor"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "viewModel"]
 - !private ["13iTunesRSSFeed18AlbumTableViewCellC", "widthAnchor"]
+- !private ["13iTunesRSSFeed14AlbumViewModelV", "albumName"]
+- !private ["13iTunesRSSFeed14AlbumViewModelV", "artist"]
+- !private ["13iTunesRSSFeed14AlbumViewModelV", "artwork"]
 - !private ["So18UIViewAutoresizingV", "flexibleHeight"]
 - ["So22UILayoutConstraintAxisV", "horizontal"]
 - ["So22UILayoutConstraintAxisV", "vertical"]
@@ -310,7 +310,7 @@ depends-member:
 - ["So8NSObjectC", "$__lazy_storage_$_artworkImage"]
 - ["So8NSObjectC", "$__lazy_storage_$_labelsStackView"]
 - ["So8NSObjectC", "$__lazy_storage_$_mainStackView"]
-- ["So8NSObjectC", "AlbumCellViewModel"]
+- ["So8NSObjectC", "AlbumViewModel"]
 - ["So8NSObjectC", "CellStyle"]
 - ["So8NSObjectC", "NSCoder"]
 - !private ["So8NSObjectC", "NSLayoutConstraint"]
@@ -712,7 +712,7 @@ depends-member:
 - ["So11UIResponderC", "$__lazy_storage_$_artworkImage"]
 - ["So11UIResponderC", "$__lazy_storage_$_labelsStackView"]
 - ["So11UIResponderC", "$__lazy_storage_$_mainStackView"]
-- ["So11UIResponderC", "AlbumCellViewModel"]
+- ["So11UIResponderC", "AlbumViewModel"]
 - ["So11UIResponderC", "CellStyle"]
 - ["So11UIResponderC", "NSCoder"]
 - !private ["So11UIResponderC", "NSLayoutConstraint"]
@@ -789,7 +789,7 @@ depends-member:
 - ["So15UITableViewCellC", "$__lazy_storage_$_artworkImage"]
 - ["So15UITableViewCellC", "$__lazy_storage_$_labelsStackView"]
 - ["So15UITableViewCellC", "$__lazy_storage_$_mainStackView"]
-- ["So15UITableViewCellC", "AlbumCellViewModel"]
+- ["So15UITableViewCellC", "AlbumViewModel"]
 - ["So15UITableViewCellC", "CellStyle"]
 - ["So15UITableViewCellC", "NSCoder"]
 - !private ["So15UITableViewCellC", "NSLayoutConstraint"]
@@ -877,7 +877,7 @@ depends-member:
 - ["So6UIViewC", "$__lazy_storage_$_artworkImage"]
 - ["So6UIViewC", "$__lazy_storage_$_labelsStackView"]
 - ["So6UIViewC", "$__lazy_storage_$_mainStackView"]
-- ["So6UIViewC", "AlbumCellViewModel"]
+- ["So6UIViewC", "AlbumViewModel"]
 - ["So6UIViewC", "CellStyle"]
 - ["So6UIViewC", "NSCoder"]
 - !private ["So6UIViewC", "NSLayoutConstraint"]
@@ -1005,8 +1005,8 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "viewModel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "widthAnchor"]
 depends-nominal:
-- !private "13iTunesRSSFeed18AlbumCellViewModelV"
 - "13iTunesRSSFeed18AlbumTableViewCellC"
+- !private "13iTunesRSSFeed14AlbumViewModelV"
 - !private "So18UIViewAutoresizingV"
 - "So22UILayoutConstraintAxisV"
 - "So15CALayerDelegateP"
@@ -1141,4 +1141,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "53069898942e211fa8640396fb427b1b"
+interface-hash: "7209277352ef3267978c22bdaeae845e"

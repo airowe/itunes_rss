@@ -10,7 +10,6 @@ import Combine
 import UIKit
 
 class MainViewController: UITableViewController {
-
     var albums = [Album]()
     let viewModel = FeedViewModel()
     private var cancellables: Set<AnyCancellable> = []
@@ -47,10 +46,15 @@ class MainViewController: UITableViewController {
         }
 
         let album = albums[indexPath.row]
-        cell.setup(with: AlbumCellViewModel(album))
+        cell.setup(with: AlbumViewModel(album))
 
         cell.layoutIfNeeded()
         
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailViewController = DetailViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
