@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "cf3cea3ed23b74182380949c2b866969"
+build_time: [1592405216, 71951000]
+inputs:
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/AppDelegate.swift": !dirty [1592398162, 565416913]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Feed.swift": !dirty [1592399018, 114599476]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/SceneDelegate.swift": !dirty [1592398405, 102621302]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/ViewModels/AlbumCellViewModel.swift": !dirty [1592404505, 316485927]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Views/MainViewController.swift": !dirty [1592403409, 470986223]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/ViewModels/FeedViewModel.swift": !dirty [1592402404, 854662095]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Views/DetailViewController.swift": !dirty [1592397576, 822220811]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Album.swift": !dirty [1592359333, 795589460]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Response.swift": !dirty [1592399102, 183545168]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Models/Genre.swift": !dirty [1592354389, 567405791]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Networking/APIClient.swift": !dirty [1592359454, 127110018]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Networking/iTunesRSSAPI.swift": !dirty [1592399102, 167429417]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/iTunesRSSFeed/Views/AlbumTableViewCell.swift": !dirty [1592405212, 570246421]
