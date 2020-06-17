@@ -16,7 +16,6 @@
 		667848B724996A1500240A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667848B624996A1500240A0E /* Assets.xcassets */; };
 		667848BA24996A1500240A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667848B824996A1500240A0E /* LaunchScreen.storyboard */; };
 		667848C524996A1500240A0E /* iTunesRSSFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848C424996A1500240A0E /* iTunesRSSFeedTests.swift */; };
-		667848D024996A1600240A0E /* iTunesRSSFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848CF24996A1600240A0E /* iTunesRSSFeedUITests.swift */; };
 		667848DF24999BBD00240A0E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848DE24999BBD00240A0E /* Album.swift */; };
 		667848E124999BC900240A0E /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848E024999BC900240A0E /* Feed.swift */; };
 		667848E324999D7F00240A0E /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848E224999D7F00240A0E /* Genre.swift */; };
@@ -26,6 +25,7 @@
 		667848EE249A4C2900240A0E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848ED249A4C2900240A0E /* Response.swift */; };
 		667848F0249A4CFC00240A0E /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848EF249A4CFC00240A0E /* AlbumTableViewCell.swift */; };
 		667848F2249A5B3100240A0E /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848F1249A5B3100240A0E /* AlbumViewModel.swift */; };
+		667848F7249AC9DE00240A0E /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667848F6249AC9DE00240A0E /* UITableViewExtension.swift */; };
 		87106FA8F6981727E6D9ABDE /* Pods_iTunesRSSFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF09A4FB9E5082780AAD9F4D /* Pods_iTunesRSSFeedTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,8 +64,6 @@
 		667848C424996A1500240A0E /* iTunesRSSFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRSSFeedTests.swift; sourceTree = "<group>"; };
 		667848C624996A1600240A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667848CB24996A1600240A0E /* iTunesRSSFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesRSSFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		667848CF24996A1600240A0E /* iTunesRSSFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesRSSFeedUITests.swift; sourceTree = "<group>"; };
-		667848D124996A1600240A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		667848DE24999BBD00240A0E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		667848E024999BC900240A0E /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		667848E224999D7F00240A0E /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
@@ -75,6 +73,7 @@
 		667848ED249A4C2900240A0E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		667848EF249A4CFC00240A0E /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		667848F1249A5B3100240A0E /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		667848F6249AC9DE00240A0E /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		6693CD501FBCF28AE62188DF /* Pods-iTunesRSSFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesRSSFeed.release.xcconfig"; path = "Target Support Files/Pods-iTunesRSSFeed/Pods-iTunesRSSFeed.release.xcconfig"; sourceTree = "<group>"; };
 		A17D8595F659C668D38FBF42 /* Pods-iTunesRSSFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesRSSFeed.debug.xcconfig"; path = "Target Support Files/Pods-iTunesRSSFeed/Pods-iTunesRSSFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		AF09A4FB9E5082780AAD9F4D /* Pods_iTunesRSSFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesRSSFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +126,6 @@
 			children = (
 				667848AA24996A0F00240A0E /* iTunesRSSFeed */,
 				667848C324996A1500240A0E /* iTunesRSSFeedTests */,
-				667848CE24996A1600240A0E /* iTunesRSSFeedUITests */,
 				667848A924996A0F00240A0E /* Products */,
 				13A5153B80AF291E86B91974 /* Pods */,
 				E846E2335FC9FFA73C869A02 /* Frameworks */,
@@ -147,6 +145,7 @@
 		667848AA24996A0F00240A0E /* iTunesRSSFeed */ = {
 			isa = PBXGroup;
 			children = (
+				667848F5249AC9CE00240A0E /* Extensions */,
 				667848E62499B11600240A0E /* ViewModels */,
 				667848E524999DEE00240A0E /* Views */,
 				667848E424999DE500240A0E /* Networking */,
@@ -167,15 +166,6 @@
 				667848C624996A1600240A0E /* Info.plist */,
 			);
 			path = iTunesRSSFeedTests;
-			sourceTree = "<group>";
-		};
-		667848CE24996A1600240A0E /* iTunesRSSFeedUITests */ = {
-			isa = PBXGroup;
-			children = (
-				667848CF24996A1600240A0E /* iTunesRSSFeedUITests.swift */,
-				667848D124996A1600240A0E /* Info.plist */,
-			);
-			path = iTunesRSSFeedUITests;
 			sourceTree = "<group>";
 		};
 		667848DD24999BAD00240A0E /* Models */ = {
@@ -215,6 +205,14 @@
 				667848F1249A5B3100240A0E /* AlbumViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		667848F5249AC9CE00240A0E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				667848F6249AC9DE00240A0E /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E846E2335FC9FFA73C869A02 /* Frameworks */ = {
@@ -478,6 +476,7 @@
 				667848EA2499B17A00240A0E /* APIClient.swift in Sources */,
 				667848EC2499B1DF00240A0E /* iTunesRSSAPI.swift in Sources */,
 				667848F0249A4CFC00240A0E /* AlbumTableViewCell.swift in Sources */,
+				667848F7249AC9DE00240A0E /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +492,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667848D024996A1600240A0E /* iTunesRSSFeedUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

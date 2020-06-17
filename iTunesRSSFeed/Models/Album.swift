@@ -9,7 +9,7 @@
 import Foundation
 
 struct Album: Codable {
-    let artistName: String
+    let artist: String
     let artwork: String
     let copyright: String
     let genres: [Genre]
@@ -18,7 +18,7 @@ struct Album: Codable {
     let url: String
 
     enum CodingKeys: String, CodingKey {
-        case artistName
+        case artist = "artistName"
         case artwork = "artworkUrl100"
         case copyright
         case genres

@@ -22,7 +22,7 @@ extension AlbumViewModel {
     }
 
     var artist: String {
-        return album.artistName
+        return album.artist
     }
 
     var artwork: URL? {

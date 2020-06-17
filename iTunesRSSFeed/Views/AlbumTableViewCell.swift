@@ -40,8 +40,7 @@ class AlbumTableViewCell: UITableViewCell {
     lazy var albumLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textAlignment = .center
-
+        label.font = UIFont.boldSystemFont(ofSize: 16)
         labelsStackView.addArrangedSubview(label)
 
         return label
@@ -50,7 +49,6 @@ class AlbumTableViewCell: UITableViewCell {
     lazy var artistLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textAlignment = .center
 
         labelsStackView.addArrangedSubview(label)
 
@@ -61,6 +59,7 @@ class AlbumTableViewCell: UITableViewCell {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.heightAnchor.constraint(lessThanOrEqualToConstant: 120).isActive = true
+        image.heightAnchor.constraint(equalTo: image.widthAnchor, multiplier: 1.0).isActive = true
 
         return image
     }()
@@ -79,8 +78,8 @@ class AlbumTableViewCell: UITableViewCell {
         NSLayoutConstraint.activate([
             mainStackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8),
             mainStackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
-            mainStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8),
-            mainStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -8)])
+            mainStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            mainStackView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16)])
 
         mainStackView.addArrangedSubview(labelsStackView)
         mainStackView.addArrangedSubview(artworkImage)
