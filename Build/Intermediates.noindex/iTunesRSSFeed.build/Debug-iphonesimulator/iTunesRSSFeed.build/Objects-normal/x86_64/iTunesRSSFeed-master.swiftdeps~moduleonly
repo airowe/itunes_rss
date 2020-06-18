@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "680730b3e31844befbeb174604c6afce"
-build_time: [1592502750, 863896000]
+options: "b69a3d5fabd9722e53061e0f372ffd55"
+build_time: [1592502848, 916808000]
 inputs:
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/AppDelegate.swift": [1592501792, 831856737]
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Models/Feed.swift": [1592501792, 835465505]
@@ -17,5 +17,5 @@ inputs:
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Models/Genre.swift": [1592501796, 925585772]
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Networking/APIClient.swift": [1592501549, 808310683]
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Networking/iTunesRSSAPI.swift": [1592502647, 569216494]
-  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Views/AlbumTableViewCell.swift": [1592502750, 738846546]
+  "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Views/AlbumTableViewCell.swift": [1592502848, 844073958]
   "/Users/adam/Projects/itunes_rss/iTunesRSSFeed/Extensions/UITableViewExtension.swift": [1592501792, 834080309]

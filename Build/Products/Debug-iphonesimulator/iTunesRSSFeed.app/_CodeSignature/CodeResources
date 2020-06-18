@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		EJINnOLixYGNaORVrOLfZsq69I0=
+		R1gNfegBlRO9pinQGdfc4yIb+CQ=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,19 +14,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		ARNwlBXogE2rHYi5l2qvValBGzc=
-		</data>
-		<key>Frameworks/SDWebImage.framework/Info.plist</key>
-		<data>
-		9EgFucGV0e0O9UEC7oMMH7iPZ7I=
-		</data>
-		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
-		<data>
-		ZIjv7CBaQbb3fkcHlbkqPhhBVlg=
-		</data>
-		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4OkE+tj7hkuvZr1GWNhBYBO4Czw=
+		aWLzQnBO0q9wx4USLO/4/KUdHh4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,7 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			que72CgFdzJTgBXhv2tXBmDgTMhJNZZulXxjV55Mmh0=
+			4SflhJUx4Cm5G409THakPtzmvdBmbZCsIyNxQptcI4s=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -57,28 +45,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wY4U7Yc+prAlFk6CERirZKlb9xebybFflPGkJVAPha8=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImage.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4yx+oPKFJFPzZQON5LuWwZQiTwDpxgU4JuAlrbM1gLY=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hy9K474iTvsrOF86y5LU1DKHctJUQayi85ewOW2jspI=
-			</data>
-		</dict>
-		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OPWZGebFuIxuaGh0AdeH6+MJ8WFAok0TbzB/BlX/rjI=
+			rFAoPNa3KmCBTe+Qre3MqSyOY7akAzXMyFSL8ZrJ7/g=
 			</data>
 		</dict>
 	</dict>

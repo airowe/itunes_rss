@@ -6,7 +6,6 @@
 //  Copyright © 2020 Adam Rowe. All rights reserved.
 //
 
-import SDWebImage
 import UIKit
 
 class AlbumTableViewCell: UITableViewCell {
