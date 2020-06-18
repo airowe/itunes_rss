@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		Fh12jZ5G85UeZQSxYlW7kGm9q9k=
+		EJINnOLixYGNaORVrOLfZsq69I0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		FDdzRDisBgM8kZuABMpB8dnkArA=
+		ARNwlBXogE2rHYi5l2qvValBGzc=
 		</data>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<data>
@@ -22,60 +22,11 @@
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		mxRoh5u1gfkez6K8oZWcpX6b1VY=
+		ZIjv7CBaQbb3fkcHlbkqPhhBVlg=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
 		4OkE+tj7hkuvZr1GWNhBYBO4Czw=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
-		<data>
-		tn6Y+5e4//LBiz2r6Y6ARrWxgDc=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
-		<data>
-		jg0mhPhs9LA5SNhq50asj4a5kv4=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
-		<data>
-		RdO2l2M0bGazmh307mUap+wKETw=
-		</data>
-		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
-		<data>
-		ebIFJ/LDoBPNfS3Ozurr6QTf3ZA=
-		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<data>
-		BbiT/rc6V9xU0TwqrLc/5QiA3aY=
-		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<data>
-		Tvq5o2hZ3E9GYAnmNUIjK3cvkAQ=
-		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<data>
-		baOBgujxcXPqj9XW2D1PwaFjJ8g=
-		</data>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<data>
-		ebIFJ/LDoBPNfS3Ozurr6QTf3ZA=
-		</data>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<data>
-		PUvIVvodMbnzJ/2b823EWBJ2S3M=
-		</data>
-		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
-		<data>
-		JkrThg9rkZuYPP3Bhoubb8lBg6I=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -85,26 +36,6 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/Album.json</key>
-		<data>
-		FC45OyQQyHhvxLdsIUZ168vKvfk=
-		</data>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/Info.plist</key>
-		<data>
-		J7Lm9D7glzlcKQFe7djzQTRSJwA=
-		</data>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/MalformattedAlbum.json</key>
-		<data>
-		bb98ysG3el+isFWymRpg1KfKfjk=
-		</data>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		JXhfCjIq9V+dsF86TFoD0JA7dgw=
-		</data>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/iTunesRSSFeedTests</key>
-		<data>
-		2eqxrjxzE4X25l2yAgzsd3uMsng=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -112,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LtNUw1gxAac3AV/ku5uCSlLIyls8eTw3dZPLj26MIuQ=
+			que72CgFdzJTgBXhv2tXBmDgTMhJNZZulXxjV55Mmh0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -126,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cAEPlbBedFgcynxPyL/4GRPKCEfphglTYr+9Hn9XmxU=
+			wY4U7Yc+prAlFk6CERirZKlb9xebybFflPGkJVAPha8=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
@@ -140,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JlsllePnAiNqCa6idJKZTzCpkL0q0Q9TdEGKnf8I53g=
+			hy9K474iTvsrOF86y5LU1DKHctJUQayi85ewOW2jspI=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
@@ -148,120 +79,6 @@
 			<key>hash2</key>
 			<data>
 			OPWZGebFuIxuaGh0AdeH6+MJ8WFAok0TbzB/BlX/rjI=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bO8PYqDxtfRsUQDMXixzFKPQfbS5iLwAKOp0KEg9Kjc=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gnG/TVhAkfQlhSRIPGkiyuZdpBuvfBlmfEmOgMFl1og=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3YHve1G1pJYbELtdArnKxHmhL/pipsrpSUlbc3IkMkQ=
-			</data>
-		</dict>
-		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+llBZjzESXvNsWOCKtxfDm8KFm71EnyC2OC+Wn4LJPk=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3hZHT9LHiBFMNoVwXHVnWNlUAz2hCEpbpooQA6TjKe8=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Fb1Ak2EsBHDV9cwcZ36QpnbLkNEJ5TaZPisydNjqdUA=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wm1NJ8fI1EKxJA4d4PAdJuZuQF0mZTvR2xsrZbdr4NY=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+llBZjzESXvNsWOCKtxfDm8KFm71EnyC2OC+Wn4LJPk=
-			</data>
-		</dict>
-		<key>Frameworks/libXCTestBundleInject.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			03/QHFEhkjLVkuYwiRsJcH3VOZ2fKFtxCkIhfqxL/0U=
-			</data>
-		</dict>
-		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			46uv6RI9+EUJCEOzGXir20mqi9THPo3PTbBKTnSQXCA=
-			</data>
-		</dict>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/Album.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/fr700onLS2r5dKmFOE3w34UnovIiDSQkZEHvKU7QK4=
-			</data>
-		</dict>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7G5Zr7Zaj99VojY97vvAC7KTfRhGIVldRhnqslUIPoE=
-			</data>
-		</dict>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/MalformattedAlbum.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			99lQzzxnxyGSuDW40GUjifDCxbNWjwfGdG7XnpRYJZ8=
-			</data>
-		</dict>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FLtEPfjdn7uC6DMbcupp0ZBGq1Tm/ss0WlP+IgjcyUg=
-			</data>
-		</dict>
-		<key>PlugIns/iTunesRSSFeedTests.xctest/iTunesRSSFeedTests</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wrpj92Y9UbP86SbQe7TYBvLFJT3t1WvRHWKR/x1Qunk=
 			</data>
 		</dict>
 	</dict>
