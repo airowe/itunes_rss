@@ -25,7 +25,6 @@
 		128EFBE9343EDF0C57FAAADD49BC56DD /* SDDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA312CD35CDA8B190F7353E5BA417A9 /* SDDeviceHelper.m */; };
 		12A76A691E704E6EBE12CC888639C31A /* SDImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E58EC37CE6431A8280D3BC87A04B69 /* SDImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1367682CED02F22D43F248A0E36CC17B /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = A7941FF8F93E369CB7027991250F6DC9 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		1696DB36D65B4B24650E27C45B6CD10C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D00B48F9C006CE24A390428C3CED41F9 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17A9AF6EE329CCFB27654097363C2B8A /* SDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0DCCB4D4A54C1BFD074DE4D67192AF /* SDAnimatedImageView.m */; };
 		183F84DC6D79A0F93AE6C13F2EDDDCD8 /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FB3A1208BF3EDE9859730328DA24A1 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1A04C35F3E2D85CFCAFC9934EAC8E033 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 674653DCE883634D84ED07EA7485D511 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,7 +37,7 @@
 		2BA21C438056A776BA8C687B92795035 /* UIImage+ExtendedCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D697BFD229691146E3E3879ACC7771 /* UIImage+ExtendedCacheData.m */; };
 		30DA70F0581FD30987A2CD17C2B77710 /* UIColor+SDHexString.m in Sources */ = {isa = PBXBuildFile; fileRef = BA320734F814C60A35E3A083587010F5 /* UIColor+SDHexString.m */; };
 		36AA959BEC81425BBE36CFC90533C2C4 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FA625ECF072D4F0DA5B4456AA5BEC2 /* SDImageTransformer.m */; };
-		3C703A9022043DFFB2DE673460FFE8C1 /* Pods-iTunesRSSFeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C65E73FEB90A2A67BD64DB511ACF7A8 /* Pods-iTunesRSSFeed-dummy.m */; };
+		3C703A9022043DFFB2DE673460FFE8C1 /* Pods-iTunesRSSFeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C24B10076BB68F701435C69699DBA5 /* Pods-iTunesRSSFeed-dummy.m */; };
 		40DD3721BA61598A56ECF57BB1C45EE8 /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6B05AD2A8CBC14C8AE43BD06FDF95B /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E823881385B837FA086E301CBBB87C /* UIColor+SDHexString.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A01FDE23915B5BAB018D46219AE2DF /* UIColor+SDHexString.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		42BB3098DC0E47748C6AD61A10575859 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AF6B36F85DE19013D00324C3A23EA3 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,7 +56,6 @@
 		5BCB8102AFF58BDD96E0C059F9B88BB5 /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D2D4D7BA3D56565B163A707149D231 /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C5058FC446A9C6C4F3FA70C2121A267 /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEBA27D6C005CEFB9A005E6BD10A269 /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E96F449788433CD16C308CA4C4974AB /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F84EBEC58D995BD4DEE8CB79FE8699 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5EAC14681FFE341E3428C967CF214DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
 		5ED2D31818A9DFE57C16B20CE543D274 /* SDWebImageCacheSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B855B3E70BCA5D397CF412CBE51AC5 /* SDWebImageCacheSerializer.m */; };
 		64F3EB426774D6F1D593DBFAFFBF6791 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4120727E3D03ADEF4CB8262F0458E7AD /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65846CA0B3651E360DBAA4BF90646811 /* SDWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A806F0FCCE5B2A1FF1E6CBC0FC40FA7E /* SDWeakProxy.m */; };
@@ -95,7 +93,7 @@
 		8BE030582BFA5590BC7A1EB1A7E8DDC4 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F86F7F892A6C5F78BCBE741AF611C7 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0623242A13E39BB0068F748D5A7819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7458A52B903C39C9CFC9B6A9BDCC5B2B /* Foundation.framework */; };
 		9140B89832569466DC295558951FF9A4 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C88FABD52721EBF4D00BD1E58D5C5E2C /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91C05FB7B3AC11AA6B3A0A9E2EED827D /* Pods-iTunesRSSFeedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6182B5580AC4B98BC0E4F277FC301F15 /* Pods-iTunesRSSFeedTests-dummy.m */; };
+		91C05FB7B3AC11AA6B3A0A9E2EED827D /* Pods-iTunesRSSFeedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FCEC29FF9E1E7CAA90072588543362 /* Pods-iTunesRSSFeedTests-dummy.m */; };
 		9212629910630E2F8888272B38EA81E4 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D88E575E9EDB51FC755EB58DE3BFEC6 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93BEA54D5F71BA4A50431AF53CC00D87 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 333C9875E45CB38C30CBCEE31C67D351 /* SDWebImageCompat.m */; };
 		949BA4CC204D826571EA4E85BA769DB7 /* SDImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B62B85CF45A7F58C4C53D2E0A1362BA /* SDImageTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,7 +103,7 @@
 		9B2CA92DABE7B2C299F37DF6DE570E2A /* SDGraphicsImageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B58483C2CA1D92B193036BDAECDC9667 /* SDGraphicsImageRenderer.m */; };
 		9C39FA3EB2A9462B249432F655FC9AA8 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 74AB6A99E6FDD4B005280F8C54E09554 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C6F61B6DD8964A03128BB996BCCCDF5 /* NSImage+Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A7E24CB4CAC1DC91690FEFC509AFDF /* NSImage+Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EF7F8B02017B1E30B1F5AD1CFB16B44 /* Pods-iTunesRSSFeed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A757951C1B9D4EEBFA092FFFE2524412 /* Pods-iTunesRSSFeed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EF7F8B02017B1E30B1F5AD1CFB16B44 /* Pods-iTunesRSSFeed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5341CA6A1343EB380362B5A0F9FA877 /* Pods-iTunesRSSFeed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1B62D4B373543D743AC938090EF65F2 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 195C62F1A755DCFD941D024BD5A591B7 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26011648EA7CD910788DBBF08C36F32 /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B6E2513F1DADB2146704CDEC4C35F1 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3A38FFF99F8F65D21F6526D4D257230 /* SDWebImageDownloaderConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C23CD336665DF503ECBB99D197774D5 /* SDWebImageDownloaderConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,8 +122,7 @@
 		C6B18C54AF037EFF6980D1DA72CD8F1C /* SDImageCachesManagerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A15B1126A24D1A66F791D02CA5690B /* SDImageCachesManagerOperation.m */; };
 		C854CD2F89E00E88FB1D6669A770DEE0 /* SDWebImageDownloaderDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E05FB2AC16D1058D69514F5AC223EF55 /* SDWebImageDownloaderDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C88E97ED465D3973A3D9FD7AE94BDB9A /* SDImageAPNGCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D1E7D837BBE021ABDB44911E7FB781 /* SDImageAPNGCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA959FCA8A781D2B5C1E0DFA4BEB8D2F /* Pods-iTunesRSSFeedTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FB09E1279163608B1414E641429B4E /* Pods-iTunesRSSFeedTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAE707A1888C40B3442DBCA135DA7521 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 682FED973FE96795C2A78A8E32888FBE /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m */; };
+		CA959FCA8A781D2B5C1E0DFA4BEB8D2F /* Pods-iTunesRSSFeedTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5357225EA166C4DCB556183A14B68732 /* Pods-iTunesRSSFeedTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB7FD6CF36B7E0D67976FB6A3B75801C /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BE8A5D3E2E876261BCA337629D341 /* SDImageCacheConfig.m */; };
 		CBA469E2DD8702DECB634A81F850C516 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 107A3CF487DCDE8F2F89E321F48B2BC9 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCEF1E548BE78064BE12CC29D9977A28 /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 791E4F98F43DF0286F31243973FE0797 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -164,13 +161,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		64404776CF7367CFB7F7E4655657F627 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3847153A6E5EEFB86565BA840768F429;
-			remoteInfo = SDWebImage;
-		};
 		6F58473DC82968B6C1B6B6392CAC34EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -194,9 +184,7 @@
 		017471092E87BBD85D539A6BF73B6BAF /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/Core/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		0497C4A1BC4C27C0F5EB73A794DE5D84 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/Core/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		0502ACFA09A650FC1670ED0D573C1420 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
-		08FF8F6920B723ABFC5165DF650E558D /* Pods-iTunesRSSFeedTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeedTests-Info.plist"; sourceTree = "<group>"; };
-		0964273AC1937D65C7D12EAD2F7449F5 /* Pods-iTunesRSSFeed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-acknowledgements.plist"; sourceTree = "<group>"; };
-		0AB71763645860894DB17A2B577E73D7 /* Pods-iTunesRSSFeed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-Info.plist"; sourceTree = "<group>"; };
+		0A8C7EEA41CDD8849BB0F7D15F2556A2 /* Pods-iTunesRSSFeed-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-Info.plist"; sourceTree = "<group>"; };
 		0B62B85CF45A7F58C4C53D2E0A1362BA /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/Core/SDImageTransformer.h; sourceTree = "<group>"; };
 		0BCA14E5D4AA3CBAB09436591D9C89D9 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
 		107A3CF487DCDE8F2F89E321F48B2BC9 /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/Core/SDWebImageDefine.h; sourceTree = "<group>"; };
@@ -206,13 +194,14 @@
 		18D375043C2032515B91BF12CB492E63 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/Core/SDWebImageIndicator.m; sourceTree = "<group>"; };
 		1948E1FE375F364B97AC7574EDD498FC /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/Core/SDWebImageOperation.h; sourceTree = "<group>"; };
 		195C62F1A755DCFD941D024BD5A591B7 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
+		1B4AA7ED5D8BD0AEB80DD7A13A6E5099 /* Pods-iTunesRSSFeedTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iTunesRSSFeedTests.modulemap"; sourceTree = "<group>"; };
 		1DC07CA39BE1C150964EB8281443A3B5 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
 		20AF6B36F85DE19013D00324C3A23EA3 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		21223230528AEEA164CFB20725782AD2 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
-		21F0545EFEB11275EBC9DBD69E365BB3 /* Pods-iTunesRSSFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		22610E054A31D0F98DE4512552667DDA /* Pods-iTunesRSSFeedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesRSSFeedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		226C390EE4326A89C49EA9369EB7CD59 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
 		234CB64A53612D40107E7947ED39A517 /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/Core/SDImageLoadersManager.m; sourceTree = "<group>"; };
-		248501ECF5DB52572C7F03593DB01B47 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23CA5B148703493F9C47716FC627A15F /* Pods-iTunesRSSFeedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeedTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		25AD4B656FDF62C5A740736C0A332E80 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		26A23A7F2C2E1254E35AAC5B4F6565B3 /* SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAssetManager.h; path = SDWebImage/Private/SDImageAssetManager.h; sourceTree = "<group>"; };
 		26FA625ECF072D4F0DA5B4456AA5BEC2 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
@@ -222,8 +211,6 @@
 		2B6B05AD2A8CBC14C8AE43BD06FDF95B /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
 		2B8E1328A98F943463F181DC06F33883 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
 		2C23CD336665DF503ECBB99D197774D5 /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/Core/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
-		2C65E73FEB90A2A67BD64DB511ACF7A8 /* Pods-iTunesRSSFeed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesRSSFeed-dummy.m"; sourceTree = "<group>"; };
-		2D6B974CC53B24E605B79F1A088B01E9 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests.modulemap"; sourceTree = "<group>"; };
 		2D9B44C1F807633F5421361A9695D759 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		2DC707805E90D6E5F9B4D6FA76D1664F /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/Core/SDWebImageManager.m; sourceTree = "<group>"; };
 		303E5F76FE2910DF9920F72FA57DBA60 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
@@ -231,9 +218,9 @@
 		37E9005C40C1E9F1B2C240B0B89127A9 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		37F41E2647CC0491A94F081B7F7D39AE /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/Core/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		3885C9797B407DAAC89D5135C2CC4357 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
-		3D676CD69B2F3731A635FEEEAE5ACD5A /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E643B38692135D5CF5BA4559FC18AD4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/Core/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		3E6BC51A4FE625D47C38DE25C6998865 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
+		3F274AFCB231454CB6E0D9646A46A99E /* Pods-iTunesRSSFeed-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesRSSFeed-frameworks.sh"; sourceTree = "<group>"; };
 		4120727E3D03ADEF4CB8262F0458E7AD /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		42D84189BC374475336EB5DAEB902F78 /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
 		46E817B2898D210943B67C3275F1978C /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
@@ -241,31 +228,31 @@
 		4A0329BF72EB700E896252B744DE0A70 /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/Core/SDImageAPNGCoder.m; sourceTree = "<group>"; };
 		4A66FBDCAA5F66AF598BB9FEE3DCCDEB /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/Core/SDAnimatedImage.m; sourceTree = "<group>"; };
 		4EB2DF15D3BE177A22AA0B9E6005AA8D /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/Core/SDWebImageDefine.m; sourceTree = "<group>"; };
-		4FB336C0B67F9240038DA8C0B94FCD17 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		510C275E0C1104534EE18D9456C1011C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/Core/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		512870E422AE661B58B71CBAFD4B1A42 /* Pods_iTunesRSSFeed_iTunesRSSFeedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesRSSFeed_iTunesRSSFeedUITests.framework; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FB09E1279163608B1414E641429B4E /* Pods-iTunesRSSFeedTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesRSSFeedTests-umbrella.h"; sourceTree = "<group>"; };
 		534CE58D90121E3D7035ABDC7E053BEA /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/Core/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		5357225EA166C4DCB556183A14B68732 /* Pods-iTunesRSSFeedTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesRSSFeedTests-umbrella.h"; sourceTree = "<group>"; };
 		55646F44072CEAE37B70E801951F5377 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/Core/SDWebImageManager.h; sourceTree = "<group>"; };
+		557BF3AEACB71CB3D23F2610F17581A0 /* Pods-iTunesRSSFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		575101CDF93AC53931965160729739C5 /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/Core/SDImageLoader.h; sourceTree = "<group>"; };
 		582367E409A230924244964323B6E471 /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		584E6D06EB36C721F7437EA8E4B3B65D /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/Core/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
 		5955B52719AF6F0F72C1103D1247FAA8 /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/Core/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
+		5A6CD77712B8AFE118F5878F6CCB47FA /* Pods-iTunesRSSFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		5B610E4E10EF1D5674B72BADB382BD61 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/Core/NSImage+Compatibility.m"; sourceTree = "<group>"; };
 		5E3628489ECA3A19D539121488F3C277 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/Core/SDImageFrame.m; sourceTree = "<group>"; };
-		6182B5580AC4B98BC0E4F277FC301F15 /* Pods-iTunesRSSFeedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesRSSFeedTests-dummy.m"; sourceTree = "<group>"; };
 		62E58EC37CE6431A8280D3BC87A04B69 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
 		632588D1CA8410E02B50B326854D29CA /* SDWebImageOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOperation.m; path = SDWebImage/Core/SDWebImageOperation.m; sourceTree = "<group>"; };
 		64B6612F72A469086F6A63AF3B9D5B5C /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
 		66A8ECB1058B30AE3A56DFE832A6A51D /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/Core/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		674653DCE883634D84ED07EA7485D511 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
 		6793DBC5CACEDA84714CE9506B3B18FE /* SDWebImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-Info.plist"; sourceTree = "<group>"; };
-		682FED973FE96795C2A78A8E32888FBE /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m"; sourceTree = "<group>"; };
 		68B612F34FEFEDA5B11AB6BA0E17E31B /* SDWebImageTransitionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransitionInternal.h; path = SDWebImage/Private/SDWebImageTransitionInternal.h; sourceTree = "<group>"; };
 		6B3CA4AA45816E0F4F1F04C912125665 /* SDImageGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGraphics.m; path = SDWebImage/Core/SDImageGraphics.m; sourceTree = "<group>"; };
 		6BA312CD35CDA8B190F7353E5BA417A9 /* SDDeviceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDeviceHelper.m; path = SDWebImage/Private/SDDeviceHelper.m; sourceTree = "<group>"; };
+		6E73B2464D320C3C27EA26CFF62C270F /* Pods-iTunesRSSFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E93015E4C146A196F6E9B732AD01F27 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		6FE330DC99CCD8FDE0D2CF883F160653 /* SDImageHEICCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageHEICCoderInternal.h; path = SDWebImage/Private/SDImageHEICCoderInternal.h; sourceTree = "<group>"; };
+		72016F03F1CA4D403847B312B8EEA4A5 /* Pods-iTunesRSSFeedTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeedTests-Info.plist"; sourceTree = "<group>"; };
 		72CDD90EEEDC2DE44AD98704F16DBBEE /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
 		73672E11FA12A3BE4825406A07994245 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		73F84EBEC58D995BD4DEE8CB79FE8699 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
@@ -274,7 +261,6 @@
 		76A7E24CB4CAC1DC91690FEFC509AFDF /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		78B855B3E70BCA5D397CF412CBE51AC5 /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/Core/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
 		791E4F98F43DF0286F31243973FE0797 /* UIImage+Metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Metadata.h"; path = "SDWebImage/Core/UIImage+Metadata.h"; sourceTree = "<group>"; };
-		7927A24E8C86D12DABB7250E51312E13 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-frameworks.sh"; sourceTree = "<group>"; };
 		79F1E3E09DC1B410D7FC4A93725FAE22 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
 		7E1D113331EB951050C0965BD66564BB /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		7E2C0DABDCA1B19EAA2CB3445EDD00B7 /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/Core/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
@@ -288,28 +274,22 @@
 		8C2BC1EF561255A19A2FBBD149E40A01 /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
 		8CD779939B3393B5787CC0BCE2505B1E /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		8D88E575E9EDB51FC755EB58DE3BFEC6 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/Core/UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		8DB048372FA2E6491D7581DA365504E6 /* Pods-iTunesRSSFeedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesRSSFeedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E0BCBA99CC87D0AE072ACDF3604C8D3 /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
 		8E3B9504834CB4364D131EE1E71BAFB0 /* NSBezierPath+SDRoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+SDRoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.h"; sourceTree = "<group>"; };
+		90C24B10076BB68F701435C69699DBA5 /* Pods-iTunesRSSFeed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesRSSFeed-dummy.m"; sourceTree = "<group>"; };
 		9181C792BBB5039169C124BB83D42C09 /* SDInternalMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDInternalMacros.m; path = SDWebImage/Private/SDInternalMacros.m; sourceTree = "<group>"; };
 		92CB21D4EB7F26CEDF9BEAC677967538 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
-		935BD054D0AE2CBC12010F80EFBD29B1 /* Pods-iTunesRSSFeed-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesRSSFeed-frameworks.sh"; sourceTree = "<group>"; };
 		949F6B4CBA031CB1345AEA85A9F3B44B /* SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.release.xcconfig; sourceTree = "<group>"; };
 		94D4B24E8E772F2CA3C078A6F793FE28 /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
 		9545DC00879BC3EB8ED121E243A459AF /* SDImageIOAnimatedCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoder.h; path = SDWebImage/Core/SDImageIOAnimatedCoder.h; sourceTree = "<group>"; };
-		96F6D2BB0E49CD6BDEF5E9990B310962 /* Pods-iTunesRSSFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed.release.xcconfig"; sourceTree = "<group>"; };
-		97052EBC79469C9B12C961A4A8CC7434 /* Pods-iTunesRSSFeed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesRSSFeed-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97A15B1126A24D1A66F791D02CA5690B /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		98812943E54556AF265EB666936AD1F9 /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/Core/UIImage+Transform.m"; sourceTree = "<group>"; };
 		98D9027033EA6C97F2E41DA31FCEA42C /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
 		9A0DD95B36AD54BC833EF3E521397CF7 /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
 		9A896C5FA08BD59F79F319B7CD9E18E3 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/Core/SDImageCachesManager.h; sourceTree = "<group>"; };
-		9CC48798B4FCAFF5DA302F94E4297CFB /* Pods-iTunesRSSFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E3592D421955D82D638C6BD3F2B866C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A405EB0109E4CBE31F373DF172BF3238 /* Pods-iTunesRSSFeedTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iTunesRSSFeedTests.modulemap"; sourceTree = "<group>"; };
+		A1065495DFFB0086ECE16AE8E2EF9DFF /* Pods-iTunesRSSFeed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesRSSFeed-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5044082DF18C5EED3F64C5F410CF510 /* UIImage+ExtendedCacheData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ExtendedCacheData.h"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.h"; sourceTree = "<group>"; };
-		A757951C1B9D4EEBFA092FFFE2524412 /* Pods-iTunesRSSFeed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesRSSFeed-umbrella.h"; sourceTree = "<group>"; };
 		A7941FF8F93E369CB7027991250F6DC9 /* SDDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDisplayLink.h; path = SDWebImage/Private/SDDisplayLink.h; sourceTree = "<group>"; };
 		A806F0FCCE5B2A1FF1E6CBC0FC40FA7E /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
 		A974B4BD7F300C0E965AF5EE772B3FAB /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
@@ -321,9 +301,9 @@
 		B1A6FBAF51EBC8F53E1E79624D058091 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/Core/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		B2AF096F747EA06D14BB3018E8EF066F /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
 		B346D06D281D4D3C396F9BBE3DBF0FFE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B38A1F0643CD6AD4FFFB60F5005543AF /* Pods-iTunesRSSFeed-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-acknowledgements.plist"; sourceTree = "<group>"; };
 		B499C1B596B45AD7B97D83A1271FCEF6 /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		B58483C2CA1D92B193036BDAECDC9667 /* SDGraphicsImageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDGraphicsImageRenderer.m; path = SDWebImage/Core/SDGraphicsImageRenderer.m; sourceTree = "<group>"; };
-		B59CF094448D54AB2D0F56EB74E7FAF6 /* Pods-iTunesRSSFeedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeedTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5F86F7F892A6C5F78BCBE741AF611C7 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
 		B6D2D4D7BA3D56565B163A707149D231 /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
 		B7599A61961A2827858DBD963C49F0E4 /* Pods_iTunesRSSFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesRSSFeed.framework; path = "Pods-iTunesRSSFeed.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,21 +316,19 @@
 		BFE45B7667F9ABDEB07E7C60DEA6CC7E /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
 		BFF7212E5DDD8067727BBAB08C5E7CCE /* NSBezierPath+SDRoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+SDRoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+SDRoundedCorners.m"; sourceTree = "<group>"; };
 		C43D62130FE1389F5E6060E4CA8E71D5 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
+		C7B177B02901E143D97F548748C01807 /* Pods-iTunesRSSFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed.release.xcconfig"; sourceTree = "<group>"; };
 		C88FABD52721EBF4D00BD1E58D5C5E2C /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
 		C8EBB6AA3CB3CA8CF1B4D999CD329923 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		C94BF95CCFDF58632458AA6A86631A91 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/Core/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		C9C6253D98D95EA98970D3BB17373DCA /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/Core/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		CCB36C117A9D774927399A48679C7E3C /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
 		CDEBA27D6C005CEFB9A005E6BD10A269 /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/Core/SDImageFrame.h; sourceTree = "<group>"; };
-		D00B48F9C006CE24A390428C3CED41F9 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h"; sourceTree = "<group>"; };
 		D15CDF9FEA72D738E31E8A1847A7983D /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		D3A033AACD8A50434B419D7EE8E3D1CE /* Pods-iTunesRSSFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesRSSFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		D49D2A57A36B8C7A5302E7A669C85F33 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		D63D5B7A549DF59ED33653178430216A /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/Core/UIImage+GIF.m"; sourceTree = "<group>"; };
 		D671975959B880DDC0C469D2D76D29F2 /* SDWebImageDownloaderDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderDecryptor.m; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.m; sourceTree = "<group>"; };
 		D7F5E143901853533DD752A1D90BCD57 /* Pods_iTunesRSSFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesRSSFeedTests.framework; path = "Pods-iTunesRSSFeedTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A01FDE23915B5BAB018D46219AE2DF /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
-		DA0CF5070921F384DCF2B3ACDC006B9C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests-Info.plist"; sourceTree = "<group>"; };
 		DC55C7FC322AAC3925A65D1BE4E49DDA /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		E05FB2AC16D1058D69514F5AC223EF55 /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
 		E2203CEC286388A49596B0E744A4FD7D /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
@@ -360,11 +338,13 @@
 		E6196B160DA75CA93BED554410B5F562 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/Core/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		E7B253F510C2FAE51D18469165536113 /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/Core/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		E9ADF1DDF83E3526DD640041710F3119 /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/Core/SDImageCodersManager.h; sourceTree = "<group>"; };
-		EF61799E37B4EA7381C812DEF2DEE15F /* Pods-iTunesRSSFeed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iTunesRSSFeed.modulemap"; sourceTree = "<group>"; };
+		F0D52126D7CE7C8F252D5869E197516D /* Pods-iTunesRSSFeed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iTunesRSSFeed.modulemap"; sourceTree = "<group>"; };
 		F1F6D2ACE090C450DC8891D256F45FCB /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/Core/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		F3D1E7D837BBE021ABDB44911E7FB781 /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/Core/SDImageAPNGCoder.h; sourceTree = "<group>"; };
+		F5341CA6A1343EB380362B5A0F9FA877 /* Pods-iTunesRSSFeed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesRSSFeed-umbrella.h"; sourceTree = "<group>"; };
 		F6510034DF38FFADD675B8B0D45F9B73 /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		F8F45A52F0767DCD6125D27069BDBECD /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		F8FCEC29FF9E1E7CAA90072588543362 /* Pods-iTunesRSSFeedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesRSSFeedTests-dummy.m"; sourceTree = "<group>"; };
 		FA8189DE7268882A315F3D679833F27C /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/Core/SDImageCachesManager.m; sourceTree = "<group>"; };
 		FD733ECE120E52ED93D41588191B4579 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/Core/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
 		FF27D234A2946572D0B787188788F3D1 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
@@ -397,14 +377,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3E6B2ECDB810243F45A021873C954F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EAC14681FFE341E3428C967CF214DE5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -416,44 +388,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		16A78FFBB03505516AD3E020E095027F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6CFE2C2A263980DC77600B6F28CC6143 /* Pods-iTunesRSSFeed */,
-				46EC9E39AB7BF82AE71F1C92D166E604 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests */,
-				8922FAA2F4364758F79D6E91F17B9642 /* Pods-iTunesRSSFeedTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		39AC1AE571415DA26C844FBF45E0936C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B7599A61961A2827858DBD963C49F0E4 /* Pods_iTunesRSSFeed.framework */,
-				512870E422AE661B58B71CBAFD4B1A42 /* Pods_iTunesRSSFeed_iTunesRSSFeedUITests.framework */,
-				D7F5E143901853533DD752A1D90BCD57 /* Pods_iTunesRSSFeedTests.framework */,
-				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		46EC9E39AB7BF82AE71F1C92D166E604 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D6B974CC53B24E605B79F1A088B01E9 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.modulemap */,
-				4FB336C0B67F9240038DA8C0B94FCD17 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.markdown */,
-				9E3592D421955D82D638C6BD3F2B866C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-acknowledgements.plist */,
-				682FED973FE96795C2A78A8E32888FBE /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m */,
-				7927A24E8C86D12DABB7250E51312E13 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-frameworks.sh */,
-				DA0CF5070921F384DCF2B3ACDC006B9C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-Info.plist */,
-				D00B48F9C006CE24A390428C3CED41F9 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h */,
-				3D676CD69B2F3731A635FEEEAE5ACD5A /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.debug.xcconfig */,
-				248501ECF5DB52572C7F03593DB01B47 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.release.xcconfig */,
-			);
-			name = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests";
-			path = "Target Support Files/Pods-iTunesRSSFeed-iTunesRSSFeedUITests";
-			sourceTree = "<group>";
-		};
 		62B72C34195D25016CCD778E716479FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,21 +396,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6CFE2C2A263980DC77600B6F28CC6143 /* Pods-iTunesRSSFeed */ = {
+		7915BA4A27B364F1A0E8219A787AF615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF61799E37B4EA7381C812DEF2DEE15F /* Pods-iTunesRSSFeed.modulemap */,
-				97052EBC79469C9B12C961A4A8CC7434 /* Pods-iTunesRSSFeed-acknowledgements.markdown */,
-				0964273AC1937D65C7D12EAD2F7449F5 /* Pods-iTunesRSSFeed-acknowledgements.plist */,
-				2C65E73FEB90A2A67BD64DB511ACF7A8 /* Pods-iTunesRSSFeed-dummy.m */,
-				935BD054D0AE2CBC12010F80EFBD29B1 /* Pods-iTunesRSSFeed-frameworks.sh */,
-				0AB71763645860894DB17A2B577E73D7 /* Pods-iTunesRSSFeed-Info.plist */,
-				A757951C1B9D4EEBFA092FFFE2524412 /* Pods-iTunesRSSFeed-umbrella.h */,
-				D3A033AACD8A50434B419D7EE8E3D1CE /* Pods-iTunesRSSFeed.debug.xcconfig */,
-				96F6D2BB0E49CD6BDEF5E9990B310962 /* Pods-iTunesRSSFeed.release.xcconfig */,
+				B7599A61961A2827858DBD963C49F0E4 /* Pods_iTunesRSSFeed.framework */,
+				D7F5E143901853533DD752A1D90BCD57 /* Pods_iTunesRSSFeedTests.framework */,
+				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage.framework */,
 			);
-			name = "Pods-iTunesRSSFeed";
-			path = "Target Support Files/Pods-iTunesRSSFeed";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		792F473B9348313B90F8B714E23D4CE6 /* SDWebImage */ = {
@@ -498,17 +425,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8922FAA2F4364758F79D6E91F17B9642 /* Pods-iTunesRSSFeedTests */ = {
+		8A7F2E2C8FA92E5F613F1C349ED73065 /* Pods-iTunesRSSFeedTests */ = {
 			isa = PBXGroup;
 			children = (
-				A405EB0109E4CBE31F373DF172BF3238 /* Pods-iTunesRSSFeedTests.modulemap */,
-				8DB048372FA2E6491D7581DA365504E6 /* Pods-iTunesRSSFeedTests-acknowledgements.markdown */,
-				B59CF094448D54AB2D0F56EB74E7FAF6 /* Pods-iTunesRSSFeedTests-acknowledgements.plist */,
-				6182B5580AC4B98BC0E4F277FC301F15 /* Pods-iTunesRSSFeedTests-dummy.m */,
-				08FF8F6920B723ABFC5165DF650E558D /* Pods-iTunesRSSFeedTests-Info.plist */,
-				52FB09E1279163608B1414E641429B4E /* Pods-iTunesRSSFeedTests-umbrella.h */,
-				9CC48798B4FCAFF5DA302F94E4297CFB /* Pods-iTunesRSSFeedTests.debug.xcconfig */,
-				21F0545EFEB11275EBC9DBD69E365BB3 /* Pods-iTunesRSSFeedTests.release.xcconfig */,
+				1B4AA7ED5D8BD0AEB80DD7A13A6E5099 /* Pods-iTunesRSSFeedTests.modulemap */,
+				22610E054A31D0F98DE4512552667DDA /* Pods-iTunesRSSFeedTests-acknowledgements.markdown */,
+				23CA5B148703493F9C47716FC627A15F /* Pods-iTunesRSSFeedTests-acknowledgements.plist */,
+				F8FCEC29FF9E1E7CAA90072588543362 /* Pods-iTunesRSSFeedTests-dummy.m */,
+				72016F03F1CA4D403847B312B8EEA4A5 /* Pods-iTunesRSSFeedTests-Info.plist */,
+				5357225EA166C4DCB556183A14B68732 /* Pods-iTunesRSSFeedTests-umbrella.h */,
+				6E73B2464D320C3C27EA26CFF62C270F /* Pods-iTunesRSSFeedTests.debug.xcconfig */,
+				557BF3AEACB71CB3D23F2610F17581A0 /* Pods-iTunesRSSFeedTests.release.xcconfig */,
 			);
 			name = "Pods-iTunesRSSFeedTests";
 			path = "Target Support Files/Pods-iTunesRSSFeedTests";
@@ -527,6 +454,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		B988435A500B552013329D898A3E415E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBF2BC6A95CE3B211AE18A75F03B10 /* Pods-iTunesRSSFeed */,
+				8A7F2E2C8FA92E5F613F1C349ED73065 /* Pods-iTunesRSSFeedTests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CEBE3F154575C545D86EEDFFDC9C956B /* Core */ = {
@@ -683,9 +619,26 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				62B72C34195D25016CCD778E716479FF /* Pods */,
-				39AC1AE571415DA26C844FBF45E0936C /* Products */,
-				16A78FFBB03505516AD3E020E095027F /* Targets Support Files */,
+				7915BA4A27B364F1A0E8219A787AF615 /* Products */,
+				B988435A500B552013329D898A3E415E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D8DBF2BC6A95CE3B211AE18A75F03B10 /* Pods-iTunesRSSFeed */ = {
+			isa = PBXGroup;
+			children = (
+				F0D52126D7CE7C8F252D5869E197516D /* Pods-iTunesRSSFeed.modulemap */,
+				A1065495DFFB0086ECE16AE8E2EF9DFF /* Pods-iTunesRSSFeed-acknowledgements.markdown */,
+				B38A1F0643CD6AD4FFFB60F5005543AF /* Pods-iTunesRSSFeed-acknowledgements.plist */,
+				90C24B10076BB68F701435C69699DBA5 /* Pods-iTunesRSSFeed-dummy.m */,
+				3F274AFCB231454CB6E0D9646A46A99E /* Pods-iTunesRSSFeed-frameworks.sh */,
+				0A8C7EEA41CDD8849BB0F7D15F2556A2 /* Pods-iTunesRSSFeed-Info.plist */,
+				F5341CA6A1343EB380362B5A0F9FA877 /* Pods-iTunesRSSFeed-umbrella.h */,
+				5A6CD77712B8AFE118F5878F6CCB47FA /* Pods-iTunesRSSFeed.debug.xcconfig */,
+				C7B177B02901E143D97F548748C01807 /* Pods-iTunesRSSFeed.release.xcconfig */,
+			);
+			name = "Pods-iTunesRSSFeed";
+			path = "Target Support Files/Pods-iTunesRSSFeed";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -788,14 +741,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2CB54E6F859315531B5AC445524729 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1696DB36D65B4B24650E27C45B6CD10C /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -836,25 +781,6 @@
 			productReference = D7F5E143901853533DD752A1D90BCD57 /* Pods_iTunesRSSFeedTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A26D0128A7D054A0F03C0CA5B8B32FC5 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18B900817361D7B4929A2EFC421039F0 /* Build configuration list for PBXNativeTarget "Pods-iTunesRSSFeed-iTunesRSSFeedUITests" */;
-			buildPhases = (
-				CC2CB54E6F859315531B5AC445524729 /* Headers */,
-				1AD1D82E7363FB94BDA887401B1D4553 /* Sources */,
-				B3E6B2ECDB810243F45A021873C954F7 /* Frameworks */,
-				FBB124B2FDBC4DECBBDAF523B77862AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8D13A419B381A286F865589251E1B3E0 /* PBXTargetDependency */,
-			);
-			name = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests";
-			productName = "Pods-iTunesRSSFeed-iTunesRSSFeedUITests";
-			productReference = 512870E422AE661B58B71CBAFD4B1A42 /* Pods_iTunesRSSFeed_iTunesRSSFeedUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		B1B6D9AB29D7F3D00E1AF6AD2E69A714 /* Pods-iTunesRSSFeed */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BDC7FE135F87F38C1BFCC2299C9FAFC /* Build configuration list for PBXNativeTarget "Pods-iTunesRSSFeed" */;
@@ -892,12 +818,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 39AC1AE571415DA26C844FBF45E0936C /* Products */;
+			productRefGroup = 7915BA4A27B364F1A0E8219A787AF615 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B1B6D9AB29D7F3D00E1AF6AD2E69A714 /* Pods-iTunesRSSFeed */,
-				A26D0128A7D054A0F03C0CA5B8B32FC5 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests */,
 				9C39810386BAB6778E4640C435721018 /* Pods-iTunesRSSFeedTests */,
 				3847153A6E5EEFB86565BA840768F429 /* SDWebImage */,
 			);
@@ -926,24 +851,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBB124B2FDBC4DECBBDAF523B77862AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AD1D82E7363FB94BDA887401B1D4553 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAE707A1888C40B3442DBCA135DA7521 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		266F5DF64B80E911303F03C4D270FEFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1039,12 +949,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8D13A419B381A286F865589251E1B3E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 3847153A6E5EEFB86565BA840768F429 /* SDWebImage */;
-			targetProxy = 64404776CF7367CFB7F7E4655657F627 /* PBXContainerItemProxy */;
-		};
 		9F677D8A7B179530C0154E429FFD26EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;
@@ -1062,7 +966,7 @@
 /* Begin XCBuildConfiguration section */
 		0472D0D6EB8659B124530D6A052A6635 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC48798B4FCAFF5DA302F94E4297CFB /* Pods-iTunesRSSFeedTests.debug.xcconfig */;
+			baseConfigurationReference = 6E73B2464D320C3C27EA26CFF62C270F /* Pods-iTunesRSSFeedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1100,7 +1004,7 @@
 		};
 		0BC109B36E6B746032F22ED702F53157 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A033AACD8A50434B419D7EE8E3D1CE /* Pods-iTunesRSSFeed.debug.xcconfig */;
+			baseConfigurationReference = 5A6CD77712B8AFE118F5878F6CCB47FA /* Pods-iTunesRSSFeed.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1198,7 +1102,7 @@
 		};
 		3D3FC2EA6A991945E220BFBE0A14B9BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96F6D2BB0E49CD6BDEF5E9990B310962 /* Pods-iTunesRSSFeed.release.xcconfig */;
+			baseConfigurationReference = C7B177B02901E143D97F548748C01807 /* Pods-iTunesRSSFeed.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1237,7 +1141,7 @@
 		};
 		43BD94F5425F053B2A26892259C90EED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21F0545EFEB11275EBC9DBD69E365BB3 /* Pods-iTunesRSSFeedTests.release.xcconfig */;
+			baseConfigurationReference = 557BF3AEACB71CB3D23F2610F17581A0 /* Pods-iTunesRSSFeedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1260,45 +1164,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iTunesRSSFeedTests/Pods-iTunesRSSFeedTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4B66DD8451513293DA27844A7F92DED3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 248501ECF5DB52572C7F03593DB01B47 /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesRSSFeed-iTunesRSSFeedUITests/Pods-iTunesRSSFeed-iTunesRSSFeedUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesRSSFeed-iTunesRSSFeedUITests/Pods-iTunesRSSFeed-iTunesRSSFeedUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1384,44 +1249,6 @@
 			};
 			name = Debug;
 		};
-		A2C8396627EBE8F282DD14ACD09D7DDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D676CD69B2F3731A635FEEEAE5ACD5A /* Pods-iTunesRSSFeed-iTunesRSSFeedUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesRSSFeed-iTunesRSSFeedUITests/Pods-iTunesRSSFeed-iTunesRSSFeedUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesRSSFeed-iTunesRSSFeedUITests/Pods-iTunesRSSFeed-iTunesRSSFeedUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1489,15 +1316,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18B900817361D7B4929A2EFC421039F0 /* Build configuration list for PBXNativeTarget "Pods-iTunesRSSFeed-iTunesRSSFeedUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A2C8396627EBE8F282DD14ACD09D7DDF /* Debug */,
-				4B66DD8451513293DA27844A7F92DED3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		36FB08498B6F27CADD23C4239CE47D6B /* Build configuration list for PBXNativeTarget "Pods-iTunesRSSFeedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

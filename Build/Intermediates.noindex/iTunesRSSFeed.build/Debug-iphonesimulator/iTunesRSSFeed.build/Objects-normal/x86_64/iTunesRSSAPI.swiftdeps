@@ -43,6 +43,7 @@ depends-member:
 - ["13iTunesRSSFeed7APIPathO", "init"]
 - ["13iTunesRSSFeed7APIPathO", "rawValue"]
 - ["13iTunesRSSFeed7APIPathO", "top100Albums"]
+- ["13iTunesRSSFeed7APIPathO", "top10Albums"]
 - !private ["7Combine12AnyPublisherV", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
 - ["s28CustomDebugStringConvertibleP", "init"]
@@ -241,4 +242,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "1fb7769979ead21914c1e396ea716f69"
+interface-hash: "f40be14988294b135e409fa880c88a9d"

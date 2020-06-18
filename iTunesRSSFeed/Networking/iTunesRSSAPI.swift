@@ -15,6 +15,7 @@ enum ItunesRSSAPI {
 }
 
 enum APIPath: String {
+    case top10Albums = "apple-music/top-albums/all/10/explicit.json"
     case top100Albums = "apple-music/top-albums/all/100/explicit.json"
 }
 
