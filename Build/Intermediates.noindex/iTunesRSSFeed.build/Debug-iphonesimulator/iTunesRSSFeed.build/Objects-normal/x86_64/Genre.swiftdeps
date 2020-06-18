@@ -1,6 +1,7 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "Genre"
+- "=="
 provides-nominal:
 - "13iTunesRSSFeed5GenreV"
 provides-member:
@@ -8,9 +9,12 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- "Bool"
 - "Codable"
 - !private "FloatLiteralType"
 - "Genre"
+- "Hashable"
+- "Hasher"
 - !private "IntegerLiteralType"
 - "String"
 - !private "StringLiteralType"
@@ -46,40 +50,59 @@ depends-member:
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
 - ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
 - ["Se", ""]
+- ["Se", "_rawHashValue"]
 - ["Se", "encode"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
 - ["Se", "init"]
 - !private ["Se", "name"]
 - !private ["s7DecoderP", "container"]
+- ["SE", "=="]
 - ["SE", ""]
+- ["SE", "_rawHashValue"]
 - ["SE", "encode"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
 - ["SE", "init"]
 - !private ["SE", "name"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
-- !private ["SQ", ""]
+- ["SQ", ""]
 - ["SQ", "_rawHashValue"]
 - ["SQ", "debugDescription"]
 - ["SQ", "description"]
+- ["SQ", "encode"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
 - ["SQ", "intValue"]
+- !private ["SQ", "name"]
 - ["SQ", "stringValue"]
+- ["13iTunesRSSFeed5GenreV", "=="]
+- ["13iTunesRSSFeed5GenreV", "Bool"]
+- ["13iTunesRSSFeed5GenreV", "Genre"]
+- ["13iTunesRSSFeed5GenreV", "Hasher"]
 - ["13iTunesRSSFeed5GenreV", "String"]
+- ["13iTunesRSSFeed5GenreV", "_rawHashValue"]
 - ["13iTunesRSSFeed5GenreV", "deinit"]
 - ["13iTunesRSSFeed5GenreV", "encode"]
+- ["13iTunesRSSFeed5GenreV", "hash"]
+- ["13iTunesRSSFeed5GenreV", "hashValue"]
 - ["13iTunesRSSFeed5GenreV", "init"]
 - ["13iTunesRSSFeed5GenreV", "name"]
 - ["SH", "=="]
-- !private ["SH", ""]
+- ["SH", ""]
 - ["SH", "_rawHashValue"]
 - ["SH", "debugDescription"]
 - ["SH", "description"]
+- ["SH", "encode"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "init"]
 - ["SH", "intValue"]
+- !private ["SH", "name"]
 - ["SH", "stringValue"]
 - !private ["s6HasherV", "combine"]
 - !private ["s22KeyedDecodingContainerV", "decode"]
@@ -190,4 +213,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "29236dde64b79b625238b37988f0a55e"
+interface-hash: "d47f7c095a489788f891dea2d59a4ced"
