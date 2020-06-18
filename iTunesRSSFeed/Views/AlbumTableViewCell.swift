@@ -6,16 +6,20 @@
 //  Copyright © 2020 Adam Rowe. All rights reserved.
 //
 
-import SDWebImage
 import UIKit
 
 class AlbumTableViewCell: UITableViewCell {
+
+    private var task: URLSessionDataTask?
 
     var viewModel: AlbumViewModel? {
         didSet {
             albumLabel.text = viewModel?.albumName
             artistLabel.text = viewModel?.artist
-            artworkImage.sd_setImage(with: viewModel?.artwork)
+
+            if task == nil {
+                task = artworkImage.loadImage(from: viewModel?.artwork)
+            }
         }
     }
 
@@ -59,7 +63,6 @@ class AlbumTableViewCell: UITableViewCell {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.heightAnchor.constraint(lessThanOrEqualToConstant: 120).isActive = true
-        image.heightAnchor.constraint(equalTo: image.widthAnchor, multiplier: 1.0).isActive = true
 
         return image
     }()
@@ -91,6 +94,15 @@ class AlbumTableViewCell: UITableViewCell {
 
     func setup(with viewModel: AlbumViewModel) {
         self.viewModel = viewModel
+    }
+
+    override func prepareForReuse() {
+        super.prepareForReuse()
+
+        task?.cancel()
+        task = nil
+
+        viewModel = nil
     }
 }
 
