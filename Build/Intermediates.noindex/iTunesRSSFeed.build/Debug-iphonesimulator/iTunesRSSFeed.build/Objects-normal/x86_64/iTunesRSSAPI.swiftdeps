@@ -9,9 +9,11 @@ provides-member:
 - ["13iTunesRSSFeed12ItunesRSSAPIO", ""]
 - ["13iTunesRSSFeed7APIPathO", ""]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "request"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "downloadImage"]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- !private "??"
 - "APIClient"
 - "APIPath"
 - "AnyPublisher"
@@ -20,12 +22,17 @@ depends-top-level:
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - "ItunesRSSAPI"
+- !private "NetworkingError"
+- "QueryResult"
 - "Response"
 - "String"
 - "StringLiteralType"
 - "URL"
 - !private "URLComponents"
 - !private "URLRequest"
+- !private "URLSession"
+- "URLSessionDataTask"
+- "Void"
 - !private "_findStringSwitchCase"
 - !private "fatalError"
 - !private "~="
@@ -45,21 +52,38 @@ depends-member:
 - ["13iTunesRSSFeed7APIPathO", "top100Albums"]
 - ["13iTunesRSSFeed7APIPathO", "top10Albums"]
 - !private ["7Combine12AnyPublisherV", "map"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "url"]
 - !private ["s34CustomPlaygroundDisplayConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "failure"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
 - !private ["s17CustomReflectableP", "url"]
 - !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
 - !private ["s23CustomStringConvertibleP", "url"]
 - !private ["Se", "appendingPathComponent"]
+- !private ["Se", "failure"]
 - ["Se", "init"]
+- !private ["Se", "map"]
 - !private ["Se", "url"]
 - !private ["SE", "appendingPathComponent"]
+- !private ["SE", "failure"]
 - ["SE", "init"]
+- !private ["SE", "map"]
 - !private ["SE", "url"]
 - ["SQ", "=="]
 - ["SQ", "RawValue"]
@@ -68,11 +92,20 @@ depends-member:
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
 - !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "failure"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
+- !private ["SQ", "map"]
 - ["SQ", "rawValue"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
 - !private ["SQ", "url"]
+- !private ["s5ErrorP", "invalidURL"]
+- !private ["s5ErrorP", "network"]
+- !private ["s23ExpressibleByNilLiteralP", "failure"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
 - ["SH", "=="]
 - ["SH", "RawValue"]
 - ["SH", ""]
@@ -80,27 +113,53 @@ depends-member:
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
 - !private ["SH", "appendingPathComponent"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "failure"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "init"]
+- !private ["SH", "map"]
 - ["SH", "rawValue"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
 - !private ["SH", "url"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "APIClient"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "APIPath"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "AnyPublisher"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "Error"]
+- !private ["13iTunesRSSFeed12ItunesRSSAPIO", "NetworkingError"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "QueryResult"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "Response"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "String"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "URL"]
 - !private ["13iTunesRSSFeed12ItunesRSSAPIO", "URLComponents"]
 - !private ["13iTunesRSSFeed12ItunesRSSAPIO", "URLRequest"]
+- !private ["13iTunesRSSFeed12ItunesRSSAPIO", "URLSession"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "URLSessionDataTask"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "Void"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "apiClient"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "baseUrl"]
+- ["13iTunesRSSFeed12ItunesRSSAPIO", "downloadImage"]
 - !private ["13iTunesRSSFeed12ItunesRSSAPIO", "fatalError"]
 - ["13iTunesRSSFeed12ItunesRSSAPIO", "request"]
 - !private ["7Combine10PublishersO3MapV", "eraseToAnyPublisher"]
 - !private ["7Combine10PublishersO10MapKeyPathV", "eraseToAnyPublisher"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["13iTunesRSSFeed15NetworkingErrorO", "invalidURL"]
+- !private ["13iTunesRSSFeed15NetworkingErrorO", "network"]
+- !private ["Sq", "failure"]
+- !private ["Sq", "map"]
+- !private ["So19NSProgressReportingP", "resume"]
 - !private ["7Combine9PublisherP", "eraseToAnyPublisher"]
 - !private ["7Combine9PublisherP", "map"]
+- !private ["13iTunesRSSFeed11QueryResultO", "failure"]
+- !private ["13iTunesRSSFeed11QueryResultO", "success"]
 - ["SY", "=="]
 - ["SY", "RawValue"]
 - ["SY", ""]
@@ -121,17 +180,30 @@ depends-member:
 - !private ["10Foundation13URLComponentsV", "init"]
 - !private ["10Foundation13URLComponentsV", "url"]
 - !private ["10Foundation10URLRequestV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
 - ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
 - ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "failure"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "url"]
 depends-nominal:
 - "13iTunesRSSFeed9APIClientV"
 - "13iTunesRSSFeed7APIPathO"
 - !private "7Combine12AnyPublisherV"
+- !private "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s34CustomPlaygroundDisplayConvertibleP"
 - !private "s17CustomReflectableP"
@@ -139,11 +211,20 @@ depends-nominal:
 - "Se"
 - "SE"
 - "SQ"
+- !private "s5ErrorP"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
 - "13iTunesRSSFeed12ItunesRSSAPIO"
 - !private "7Combine10PublishersO3MapV"
 - !private "7Combine10PublishersO10MapKeyPathV"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "13iTunesRSSFeed15NetworkingErrorO"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
 - !private "7Combine9PublisherP"
+- !private "13iTunesRSSFeed11QueryResultO"
 - "SY"
 - "10Foundation20ReferenceConvertibleP"
 - !private "13iTunesRSSFeed8ResponseV"
@@ -151,8 +232,13 @@ depends-nominal:
 - "10Foundation3URLV"
 - !private "10Foundation13URLComponentsV"
 - !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s34_ExpressibleByFileReferenceLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
@@ -242,4 +328,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f40be14988294b135e409fa880c88a9d"
+interface-hash: "5db34d9b021588b94b414ec3df41afad"

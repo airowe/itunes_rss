@@ -25,8 +25,8 @@ extension AlbumViewModel {
         return album.artist
     }
 
-    var artwork: URL? {
-        return URL(string: album.artwork)
+    var artwork: String? {
+        return album.artwork
     }
 
     var copyright: String {

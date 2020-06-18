@@ -10,6 +10,7 @@ enum NetworkingError: Error {
     case statusCode
     case invalidImage
     case invalidURL
+    case network(Error?)
     case other(Error)
 
     static func map(_ error: Error) -> NetworkingError {

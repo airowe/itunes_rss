@@ -31,4 +31,26 @@ extension ItunesRSSAPI {
             .map(\.value)
             .eraseToAnyPublisher()
     }
+
+    @discardableResult
+    static func downloadImage(_ imageUrl: String?,
+                 then responseHandler: @escaping (QueryResult) -> Void) -> URLSessionDataTask? {
+        guard let imageOrigin = imageUrl, let url = URL(string: imageOrigin) else {
+            responseHandler(.failure(NetworkingError.invalidURL))
+            return nil
+        }
+
+        let task = URLSession.shared.dataTask(with: url) {
+            data, response, error in
+
+            let result = data.map(QueryResult.success) ??
+                .failure(NetworkingError.network(error))
+
+            responseHandler(result)
+        }
+
+        task.resume()
+
+        return task
+    }
 }

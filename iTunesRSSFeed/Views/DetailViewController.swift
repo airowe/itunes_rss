@@ -40,7 +40,7 @@ class DetailViewController: UIViewController {
     lazy var artworkImage: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
-        image.sd_setImage(with: viewModel?.artwork)
+        image.loadImage(from: viewModel?.artwork)
 
         image.widthAnchor.constraint(equalToConstant: 200).isActive = true
         image.heightAnchor.constraint(equalTo: image.widthAnchor, multiplier: 1.0).isActive = true
